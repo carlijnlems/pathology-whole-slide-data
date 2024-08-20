@@ -35,7 +35,7 @@ def _get_geometry(
     if len(coordinates) <= 1:
         raise InvalidCoordinatesError(f"Coordinates {coordinates} are not valid.")
     
-    return geometry.Polygon(coordinates, holes).simplify(2.0)
+    return geometry.Polygon(coordinates, holes)
 
 
 def _triangulate(simplified_geometry, prepped_geometry):
