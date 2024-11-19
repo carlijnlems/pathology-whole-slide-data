@@ -16,7 +16,7 @@ setup(
     install_requires=[
         "concurrentbuffer>=0.0.8",
         "dicfg==0.0.13",
-        "sourcelib @ file:///data/temporary/carlijn/breast-multiclass-segmentation/libs/source-lib",
+        "sourcelib @ file:///tmp/libs/source-lib",
         "numpy>=1.20.2",
         "opencv-python-headless>=4.4.0",
         "scipy>=1.5.2",
